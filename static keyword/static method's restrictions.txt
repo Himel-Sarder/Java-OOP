@@ -1,0 +1,2 @@
+1. Static method can't use any non-static member.
+2. 'This' and 'super' keyword can't be used there.
