@@ -14,7 +14,7 @@ class Teacher {
     }
 }
 
-public class voidMethod {
+public class void_method {
     public static void main(String[] args) {
         Teacher test1 = new Teacher(); // Creating an object of Teacher class
 
