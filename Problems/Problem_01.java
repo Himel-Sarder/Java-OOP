@@ -45,7 +45,7 @@ class Box {
         System.out.println("Volumn of " + count + " Box is " + (height * width * depth));
     }
 }
-public class Main
+public class Problem_01
 {
 	public static void main(String[] args) {
 		Box b1 = new Box(10, 10, 10);
