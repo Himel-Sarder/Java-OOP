@@ -10,7 +10,7 @@ class student{
     }
 }
 
-public class Count_Using_Static_Variable {
+public class count_using_static_variable {
 
      public static void main(String []args){
         student s1 = new student();
