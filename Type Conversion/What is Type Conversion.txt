@@ -1,0 +1,10 @@
+Programs perform operations and calculations which may or may not involve variables of different data types. Compatible data types do not cause problems during execution. 
+However, incompatible ones need to be cast or converted explicitly. Each data type is assigned a certain memory space to store its value, so if variables of different types are involved, 
+finding the data type of the result is uncertain. Thus, types conversion is of two types.
+
+- Widening or implicit Conversion
+- Narrowing  or explicit Conversion
+
+It is important to note here that conversion between two primitive and two non-primitive data types is only possible. 
+We cannot typecast a primitive to a non-primitive data type and vice versa. Implicit and explicit type conversions are performed based on a precedence structure where data types are arranged in a particular order.
+
