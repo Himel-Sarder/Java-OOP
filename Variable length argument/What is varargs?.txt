@@ -1,0 +1,20 @@
+In Java, variable-length arguments (varargs) allow you to pass a variable number of arguments to a method. This feature simplifies method invocation when you need to pass an unspecified number of arguments of the same type to a method. 
+Here's how you can define and use variable-length arguments in Java:
+
+Syntax
+To define a method with variable-length arguments, use an ellipsis (...) after the parameter type. Inside the method, the varargs parameter is treated as an array of the specified type.
+
+
+public void methodName(Type... parameterName) {
+    // Method body
+}
+
+
+Key Points
+Varargs must be the last parameter in the method's parameter list.
+You can have at most one varargs parameter in a method.
+If you need to pass additional parameters along with varargs, those must be defined before the varargs parameter.
+When to Use Varargs
+Varargs are useful when you want to provide flexibility in the number of arguments passed to a method. Common use cases include utility methods like formatting or processing collections of objects where the exact number of elements isn't known beforehand.
+
+Understanding varargs in Java allows you to create more flexible and expressive APIs without needing to define multiple overloaded methods for different numbers of arguments.
