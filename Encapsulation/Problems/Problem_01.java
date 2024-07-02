@@ -24,7 +24,7 @@ class Circle {
     }
 }
 
-public class Problem_01 {
+public class Main {
   public static void main(String[] args) {
       
     // Create an instance of Circle
@@ -36,7 +36,12 @@ public class Problem_01 {
     double result1 =c.calculateArea();
     double result2 =c.calculatePerimeter();
     
-    System.out.println("Area of circle is " + result1);
-    System.out.println("Perimeter of circle is " + result2);
+    // Format the output using String.format() before printing
+        // String areaOutput = String.format("Area of circle is %.2f", result1);
+        // String perimeterOutput = String.format("Perimeter of circle is %.2f", result2);
+        
+    // Print the formatted outputs
+    System.out.println(String.format("Area of circle is %.2f", result1));
+    System.out.println(String.format("Perimeter of circle is %.2f", result2););
   }
-}  
+}
