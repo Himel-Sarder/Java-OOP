@@ -16,13 +16,13 @@ class child extends parent {
     }
 }
 
-public class Main {
+public class single_inheritance {
     public static void main(String[] args) {
         child c = new child();
         
-        c.name = "Alice";
-        c.age = 30;
-        c.dateOfbirth = 1993.5; // Example date of birth
+        c.name = "Himel sarder";
+        c.age = 22;
+        c.dateOfbirth = 2002.5; // Example date of birth
         
         c.printMe_01(); // Print parent's data
         c.printMe_02(); // Print child's data
