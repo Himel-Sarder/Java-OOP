@@ -4,5 +4,4 @@ Below are the different types of inheritance which are supported by Java.
 Single Inheritance
 Multilevel Inheritance
 Hierarchical Inheritance
-Multiple Inheritance
 Hybrid Inheritance
