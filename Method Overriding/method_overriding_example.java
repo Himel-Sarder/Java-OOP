@@ -19,7 +19,7 @@ class Dog extends Animal {
     }
 }
 
-class MethodOverridingExample {
+class method_overriding_example {
     public static void main(String[] args) {
         
 
