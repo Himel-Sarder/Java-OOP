@@ -10,7 +10,7 @@ class MyClass {
 }
 
 
-public class Main {
+public class using_forName_method {
     public static void main(String[] args) throws Exception {
         // Dynamically load class using Class.forName()
         Class<?> myClass = Class.forName("MyClass");
