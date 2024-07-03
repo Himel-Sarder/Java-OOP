@@ -1,0 +1,2 @@
+In Java, an interface is a reference type that is similar to a class but can only contain constants, method signatures, default methods, static methods, and nested types (like nested classes and interfaces). 
+It cannot contain instance fields or constructors.
