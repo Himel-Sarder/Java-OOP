@@ -1,0 +1,81 @@
+### 1. What is method overriding in Java?
+==========================================
+
+**Answer:** Method overriding in Java is a feature that allows a subclass to provide a specific implementation of a method that is already defined in its superclass. It enables polymorphic behavior where different objects can be treated uniformly through superclass references while executing different behaviors based on their actual types.
+
+
+
+### 2. What are the rules for method overriding in Java?
+========================================================
+
+**Answer:** 
+- The method in the subclass must have the same name, parameters, and return type as the method in the superclass (method signature).
+- The method in the subclass must be at least as accessible or more accessible than the method in the superclass (accessibility).
+- Constructors and private methods cannot be overridden.
+- `static` methods cannot be overridden but can be redefined in subclasses.
+
+
+### 3. How does method overriding differ from method overloading in Java?
+===========================================================================
+
+**Answer:**
+- **Method Overloading:** Refers to having multiple methods in the same class with the same name but different parameters (method signature).
+- **Method Overriding:** Involves having two methods with the same name and parameters—one in the superclass and one in the subclass—where the subclass provides a specific implementation that overrides the superclass implementation.
+
+
+### 4. What is the `@Override` annotation in Java?
+==================================================
+
+**Answer:** 
+- The `@Override` annotation is used in Java to indicate that a method in a subclass is overriding a method in its superclass. It helps in ensuring that the method signature is correct and reduces the risk of accidental overloading instead of overriding.
+
+
+### 5. Can the return type of an overriding method be different from the overridden method?
+============================================================================================
+
+**Answer:** 
+- No, the return type of an overriding method must be the same as, or a subtype of, the return type of the overridden method. This is known as covariant return type, introduced in Java 5.
+
+
+### 6. How does method overriding support polymorphism in Java?
+================================================================
+
+**Answer:** 
+- Method overriding allows different subclasses to provide their own specific implementations of methods defined in a superclass. When methods are invoked on objects through superclass references, Java determines the actual method to execute at runtime based on the object's actual type. This polymorphic behavior enables flexibility and code reusability in object-oriented programming.
+
+
+### 7. Can a subclass override a private method of its superclass?
+==================================================================
+
+**Answer:** 
+- No, a subclass cannot override a private method of its superclass. Private methods are not visible to subclasses, so they cannot be overridden or accessed directly by subclasses.
+
+
+### 8. How can you prevent a method from being overridden in Java?
+==================================================================
+
+**Answer:** 
+- To prevent a method from being overridden, declare it as `final` in the superclass. Additionally, if the entire class should not be subclassed, declare the class itself as `final`. This ensures that neither the method nor the class can be extended or overridden.
+
+
+### 9. Can a subclass override a method from a superclass if the superclass method is final?
+============================================================================================
+
+**Answer:**
+
+No, a subclass cannot override a method declared as final in its superclass. The final keyword indicates that the method implementation cannot be changed or overridden in any subclass. It is a way to enforce that a method's behavior remains consistent across all subclasses.
+
+
+### 10. Can we override static methods in Java?
+===============================================
+
+**Answer:** 
+- No, static methods cannot be overridden in Java. When a subclass defines a static method with the same signature as a static method in its superclass, it is considered hiding, not overriding.
+
+
+### 11. Why can't static methods be overridden?
+===============================================
+
+**Answer:** 
+- Static methods belong to the class rather than to instances of the class. They are resolved at compile time based on the reference type, not at runtime based on the object's type, which is essential for method overriding.
+
