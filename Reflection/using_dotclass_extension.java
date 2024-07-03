@@ -9,7 +9,7 @@ class MyClass {
     }
 }
 
-public class using_.class_extension {
+public class using_dotclass_extension {
     public static void main(String[] args) throws Exception {
         // Using .class to obtain the Class object directly
         Class<?> myClass = MyClass.class;
