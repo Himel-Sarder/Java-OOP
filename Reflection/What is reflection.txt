@@ -1,0 +1,3 @@
+Reflection in Java allows you to inspect and modify classes, interfaces, fields, and methods at runtime. It provides a way to examine or modify the runtime behavior of applications. 
+Reflection gives us information about the class to which an object belongs and also the methods of that class that can be executed by using the object.
+Through reflection, we can invoke methods at runtime irrespective of the access specifier used with them.
